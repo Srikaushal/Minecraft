@@ -128,6 +128,10 @@ function mykeydown(e){
         block_update('yellow_wall.png');
         console.log("w");
     }
+    
+    if ( Keypressed=='81){
+        erase();    
+        console.log("Q"); 
 }
 
 function up(){
@@ -168,6 +172,10 @@ function down(){
    
     }
        
+       
+   }
+function erase(){
+       canvas.remove(block_object);
    }
 
    
